@@ -2,8 +2,8 @@ package com.sajadtorkamani.katas;
 
 import java.util.regex.Pattern;
 
-public class Vowels {
-    public static int getCount(String str) {
+class Vowels {
+    static int getCount(String str) {
         return (int) Pattern
             .compile("[aeiou]")
             .matcher(str)
