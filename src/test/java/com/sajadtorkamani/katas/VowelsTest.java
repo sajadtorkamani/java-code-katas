@@ -1,4 +1,4 @@
-package com.sajadtorkamani.codekatas;
+package com.sajadtorkamani.katas;
 
 import org.junit.Test;
 
