@@ -4,6 +4,7 @@ import org.junit.Test;
 
 import static junit.framework.TestCase.assertEquals;
 
+// https://www.codewars.com/kata/vowel-count/train/java
 public class VowelsTest {
     @Test
     public void getCount_returnsCorrectVowelsCount() {
