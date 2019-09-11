@@ -2,7 +2,8 @@ package com.sajadtorkamani.katas;
 
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertFalse;
 
 // https://www.codewars.com/kata/exes-and-ohs/train/java
 class ExesAndOhsTest {
