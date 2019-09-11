@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.assertNull;
 class JadenCaseTest {
     @Test
     void toJadenCase_capitalizes_each_word() {
-        assertEquals(new JadenCase().toJadenCase("most trees are blue"), "Most Trees Are Blue");
+        assertEquals( "Most Trees Are Blue", new JadenCase().toJadenCase("most trees are blue"));
     }
 
     @Test
