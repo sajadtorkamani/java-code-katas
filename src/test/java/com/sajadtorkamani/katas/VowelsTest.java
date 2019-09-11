@@ -1,13 +1,13 @@
 package com.sajadtorkamani.katas;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-import static junit.framework.TestCase.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 // https://www.codewars.com/kata/vowel-count/train/java
-public class VowelsTest {
+class VowelsTest {
     @Test
-    public void getCount_returnsCorrectVowelsCount() {
+    void getCount_returnsCorrectVowelsCount() {
         assertEquals(5, Vowels.getCount("abracadabra"));
         assertEquals(2, Vowels.getCount("planet"));
 

@@ -1,13 +1,14 @@
 package com.sajadtorkamani.katas;
 
-import org.junit.Test;
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
 
-import static junit.framework.TestCase.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 // https://www.codewars.com/kata/even-or-odd/train/java
-public class EvenOrOddTest {
+class EvenOrOddTest {
     @Test
-    public void even_or_odd_returnsCorrectResult() {
+    void even_or_odd_returnsCorrectResult() {
         assertEquals("Even", EvenOrOdd.even_or_odd(4));
         assertEquals("Even", EvenOrOdd.even_or_odd(20));
 
